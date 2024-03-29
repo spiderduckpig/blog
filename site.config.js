@@ -2,9 +2,9 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Brian Yu's blog",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "CS @ WashU",
-    bio: "Interested in theory",
+    bio: "Thinkin' on it",
     email: "brian.hw.yu@gmail.com",
     linkedin: "https://www.linkedin.com/in/brian-yu-34b22b255/",
     github: "https://github.com/spiderduckpig",
@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `personal site`,
-      href: "https://github.com/spiderduckpig/spiderduckpig.github.io",
+      href: "https://spiderduckpig.github.io/",
     },
   ],
   // blog setting (required)
@@ -23,8 +23,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://blog-eight-orpin-49.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
