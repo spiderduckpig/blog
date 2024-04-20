@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Brian Yu's blog",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "CS @ WashU",
     bio: "Todo",
     email: "brian.hw.yu@gmail.com",
@@ -31,7 +31,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: process.env.NOTION_PAGE_ID || 'placeholder',
   },
 
   // plugin configuration (optional)

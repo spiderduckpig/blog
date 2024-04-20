@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="192x192"
-            href="/apple-touch-icon.png"
+            href="/avatar.jpg"
           ></link>
           <link
             rel="alternate"

@@ -12,12 +12,8 @@ import { TPosts } from "src/types"
 
 // TODO: react query를 사용해서 처음 불러온 뒤로는 해당데이터만 사용하도록 수정
 export const getPosts = async () => {
-  console.log(CONFIG)
-  console.log(CONFIG.notionConfig)
-  console.log(CONFIG.notionConfig.pageId)
   let id = CONFIG.notionConfig.pageId as string
   const api = new NotionAPI()
-
   const response = await api.getPage(id)
   id = idToUuid(id)
   const collection = Object.values(response.collection)[0]?.value
@@ -57,7 +53,6 @@ export const getPosts = async () => {
     })
 
     const posts = data as TPosts
-    console.log(posts)
 
     return posts
   }
