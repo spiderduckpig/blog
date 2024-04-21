@@ -1,9 +1,9 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Brian Yu's blog",
-    image: "avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "CS @ WashU",
+    name: "Brian Yu's Site",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "CS, math, physics",
     bio: "Todo",
     email: "brian.hw.yu@gmail.com",
     linkedin: "https://www.linkedin.com/in/brian-yu-34b22b255/",
@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Brian Yu's Blog",
+    title: "Brian Yu's Site",
     description: "",
     theme: "auto"
   },

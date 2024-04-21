@@ -10,7 +10,6 @@ const CustomError: React.FC<Props> = () => {
       <div className="wrapper">
         <div className="top">
           <div>4</div>
-          <Emoji>🤔</Emoji>
           <div>4</div>
         </div>
         <div className="text">Post not found</div>
